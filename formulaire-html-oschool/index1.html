@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+<form id="contact-forum" >
+  <div class="_65e52571">
+    <div class="_9fffb9c6" id="login-container">
+      <div class="_e30ab864"><img class="_21dae779" src="https://getmimo.com/assets/illustrations/login-illustration.svg"></div>
+      <div class="_1644449">Reservation d'hotel</div>
+      <div class="_d6611e81">
+
+        <div class="_d70702c3">
+           <form action="/example.html" method="POST">
+             <label for="name">Nom </label>
+             <div class="_9830536">
+               <input id="name" class="_9a11307b" type="text" placeholder="Quel est votre nom ?">
+             </div>
+             
+             <label for="email"> Email </label>
+             <div class="_9830536">
+               <input name="email" id="email" class="_9a11307b" type="email" placeholder="Quel est votre email ?">
+             </div>
+             <label >Numero de telephone</label>
+             <div class="_9830536">
+               <input name="password" id="phone" class="_9a11307b" type="text" placeholder="Quel est votre Numéro de téléphone ? ">
+             </div>
+             
+             <label >Adresse</label>
+             <div class="_9830536">
+               <input name="password" id="adresse" class="_9a11307b" type="text" placeholder="Quel est votre adresse ? ">
+             </div>
+             <label for="name">Nom de l'hotel dans le quel souhaiterez vous reservez ?  </label>
+             <div class="_9830536">
+               <input id="hotel" class="_9a11307b" type="text" placeholder="Nom de l'hotel ?">
+             </div>
+             
+             
+             <label for="experience">combien de nuit aimeriez vous reservez ?</label>
+             <div class="_9830536">
+               <input name="experience" id="experience" class="_9a11307b" type="number">
+              
+             </div>
+             <label for="experience">combien de perssone souhaitez vous réservez ?</label>
+             <div class="_9830536">
+               <input name="experience" id="nombre" class="_9a11307b" type="number">
+              
+             </div>
+             
+              
+             
+             
+             
+           
+             
+          </form>
+        </div>
+
+        <div class="_bf9bb0cc" id="login-button">
+          <a class="_6142989a">
+           <button id="buttonsub" onclick="sendEmail()">Envoyer</button>
+            
+            
+            
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    </form >
+    <!-- <script  src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script >
+      function sendMail(){  
+      (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init("6sp_WRsPWtELU1rj3")
+        })();
+        var params = {
+          sendername:document.querySelector("#name").Value,
+          email:document.querySelector("#email").Value,
+          adresse:document.querySelector("#adresse").Value,
+          nombre:document.querySelector("#nombre").Value,
+          nuit:document.querySelector("#experience").Value,
+          hotel:document.querySelector("#hotel").Value,
+          phone:document.querySelector("#phone").Value,
+        };
+        var servicesID = 'service_jk841jbc'
+        var templateID = 'template_yzacpio'
+        emailjs.send(servicesID,templateID)
+        .then( res =>{
+          alert('email sent succeful')
+        })
+          .catch();
+      }
+
+    </script> -->
+   
+
+</body>
+
+</html>
